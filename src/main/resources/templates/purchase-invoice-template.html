@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase Invoice</title>
+    <style>
+        .container {
+            width: 50%;
+            padding: 10px;
+            background-color: #ffffb4;
+        }
+
+        .header {
+            width: 50%;
+            background-image: linear-gradient(to right, #74f574, yellow);
+            padding: 10px;
+            font-family: Tahoma, emoji;
+            font-size: 30px;
+        }
+
+        table {
+            margin-top: 5px;
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #600000;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #d5ff71;
+        }
+
+        .container span {
+            font-size: 18px;
+            font-family: Tahoma,serif;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <div class="header">
+        Online Medicine Shop
+    </div>
+</center>
+<center>
+    <div class="container">
+        <span>You have purchased medicines from Online Medicine Shop platform.
+        This is your purchase fiche.</span>
+        <table>
+            <tr>
+                <th>Medicine name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            #rows
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>#total$</td>
+            </tr>
+        </table>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,12 @@
+-- create table baskets
+-- (
+--     id            serial primary key,
+--     user_id int,
+--     medicine_id int,
+--     quantity int,
+--     created_at date,
+--     constraint fk_medicine_user
+--         foreign key (user_id) references users (id),
+--     constraint fk_medicine_medicine
+--         foreign key (medicine_id) references medicines (id)
+-- )

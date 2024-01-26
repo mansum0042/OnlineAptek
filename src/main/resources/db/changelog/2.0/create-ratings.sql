@@ -1,0 +1,12 @@
+-- create table ratings (
+--     id serial primary key ,
+--     user_id int,
+--     medicine_id int,
+--     rating int,
+--     feedback varchar,
+--     created_at date,
+--     constraint fk_ratings_users
+--                      foreign key (user_id) references users(id),
+--     constraint fk_ratings_medicines
+--                      foreign key (medicine_id) references medicines(id)
+-- )

@@ -1,0 +1,16 @@
+--
+-- create table medicines
+-- (
+--     id            serial primary key,
+--     medicine_name varchar(50) not null,
+--     branch_id     int         not null,
+--     quantity      integer     not null,
+--     price         float       not null,
+--     category_id   int         not null,
+--     dosage        varchar(50) not null,
+--     created_date  date,
+--     constraint fk_medicine_branch
+--         foreign key (branch_id) references branches (id),
+--     constraint fk_medicine_category
+--         foreign key (category_id) references categories (id)
+-- )

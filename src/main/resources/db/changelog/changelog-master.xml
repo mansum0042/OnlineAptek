@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd">
+    <include file="/db/changelog/1.0/create-users.sql"/>
+    <include file="/db/changelog/1.0/create-branches.sql"/>
+    <include file="/db/changelog/1.0/create-categories.sql"/>
+    <include file="/db/changelog/2.0/create-medicines.sql"/>
+    <include file="/db/changelog/2.0/create-baskets.sql"/>
+    <include file="/db/changelog/2.0/create-ratings.sql"/>
+</databaseChangeLog>
+
+
+
+
+

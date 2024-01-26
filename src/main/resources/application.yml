@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/aptek
+    username: postgres
+    password: mansum0042
+  jpa:
+    show-sql: true
+  liquibase:
+    change-log: classpath:/db/changelog/changelog-master.xml
+    database-change-log-table: aptek_log
+    database-change-log-lock-table: aptek_log_lock
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: noreply.onlinemedicine.shop@gmail.com
+    password: qpjbffybdyvxahab
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+
+jwt:
+  expireAt: 86400000
+  secretKey: V9v4nWcPfQV21pzCI+F0aSlfdJhb2lO8+nyOHRt2xqg1CONwuOxHhc6jP2e2yWot
